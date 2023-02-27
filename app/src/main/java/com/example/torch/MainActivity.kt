@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
             e.printStackTrace()
         }
 
-    // Log.d("AAA","${torchButton.isClickable}")
 
         toggle.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
